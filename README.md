@@ -10,19 +10,19 @@ Removes all spaces from a string.
 ## Install
 
 ```
-$ npm install @marissa.vw/tiny
+$ npm install @marissa.vw/test-package
 ```
 
 ## Usage
 
 ```js
-const tiny = require("@marissa.vw/test-package");
+const test = require("@marissa.vw/test-package");
 
-tiny("So much space!");
+test("So much space!");
 //=> "Somuchspace!"
 
-tiny(1337);
-//=> Uncaught TypeError: Tiny wants a string!
-//    at tiny (<anonymous>:2:41)
+test(1337);
+//=> Uncaught TypeError: Test wants a string!
+//    at test (<anonymous>:2:41)
 //    at <anonymous>:1:1
 ```
